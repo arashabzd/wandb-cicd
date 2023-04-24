@@ -1,4 +1,4 @@
-name: run-python
+name: run-python-script
 on: push
 jobs:
   run-python:
