@@ -2,10 +2,10 @@ name: run-python
 on: push
 jobs:
   run-python:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v3
-    - name: main
-      run: |
-        pip install -r requirements.txt
-        python main.py
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: main
+        run: |
+          pip install -r requirements.txt
+          python main.py
